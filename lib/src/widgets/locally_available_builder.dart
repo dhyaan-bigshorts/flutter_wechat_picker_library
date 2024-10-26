@@ -34,7 +34,7 @@ final class LocallyAvailableBuilder extends StatefulWidget {
   const LocallyAvailableBuilder({
     super.key,
     required this.asset,
-    required this.isOriginal,
+    this.isOriginal = false,
     required this.builder,
     this.withSubtype = true,
     this.thumbnailOption,
